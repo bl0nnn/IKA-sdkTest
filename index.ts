@@ -21,7 +21,7 @@ async function main(){
     await dWalletCreate(targetChain, user_label);
     
 
-
+    /*
     //dwalllet getter
     const wallets = checkWalletsStorage();
     const wallet = wallets[4];
@@ -43,7 +43,7 @@ async function main(){
 
     console.log(await paymentSigningAlg(wallet, algRecipientAddr, algAmount));
 
-
+    */
     
     process.exit(0);
 
